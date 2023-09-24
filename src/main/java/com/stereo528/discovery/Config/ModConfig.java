@@ -1,4 +1,4 @@
-package com.stereo528.example.Config;
+package com.stereo528.discovery.Config;
 
 import eu.midnightdust.lib.config.MidnightConfig;
 

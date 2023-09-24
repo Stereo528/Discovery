@@ -25,7 +25,7 @@ midnightlib = { module = "maven.modrinth:midnightlib", version.ref = "midnightli
 # If you have multiple similar dependencies, you can declare a dependency bundle and reference it on the build script with "libs.bundles.example".
 [bundles]
 quilted_fabric_api = ["quilted_fabric_api", "quilted_fabric_api_deprecated"]
-dev_mods = [ "joml", "sodium" ]
+dev_mods = []# "joml", "sodium" ]
 dependencies = [ "quilt_loader", "midnightlib", "quilted_fabric_api", "mod_menu" ]
 
 [plugins]
