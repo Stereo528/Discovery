@@ -1,7 +1,7 @@
 package com.stereo528.discovery;
 
 import eu.midnightdust.lib.config.MidnightConfig;
-import com.stereo528.discovery.Config.ModConfig;
+import com.stereo528.discovery.config.ModConfig;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.client.ClientModInitializer;
 

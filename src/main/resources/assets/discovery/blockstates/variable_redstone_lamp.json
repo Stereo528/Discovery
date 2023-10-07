@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "lit=false": {"model": "discovery:block/variable_redstone_lamp_off"},
+    "lit=true,power=0": {"model": "discovery:block/variable_redstone_lamp_off"},
+    "lit=true,power=1": {"model": "discovery:block/variable_redstone_lamp_1"},
+    "lit=true,power=2": {"model": "discovery:block/variable_redstone_lamp_1"},
+    "lit=true,power=3": {"model": "discovery:block/variable_redstone_lamp_1"},
+    "lit=true,power=4": {"model": "discovery:block/variable_redstone_lamp_2"},
+    "lit=true,power=5": {"model": "discovery:block/variable_redstone_lamp_2"},
+    "lit=true,power=6": {"model": "discovery:block/variable_redstone_lamp_2"},
+    "lit=true,power=7": {"model": "discovery:block/variable_redstone_lamp_3"},
+    "lit=true,power=8": {"model": "discovery:block/variable_redstone_lamp_3"},
+    "lit=true,power=9": {"model": "discovery:block/variable_redstone_lamp_3"},
+    "lit=true,power=10": {"model": "discovery:block/variable_redstone_lamp_4"},
+    "lit=true,power=11": {"model": "discovery:block/variable_redstone_lamp_4"},
+    "lit=true,power=12": {"model": "discovery:block/variable_redstone_lamp_4"},
+    "lit=true,power=13": {"model": "discovery:block/variable_redstone_lamp_5"},
+    "lit=true,power=14": {"model": "discovery:block/variable_redstone_lamp_5"},
+    "lit=true,power=15": {"model": "discovery:block/variable_redstone_lamp_5"}
+  }
+}

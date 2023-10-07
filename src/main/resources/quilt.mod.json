@@ -21,7 +21,7 @@
 		"entrypoints": {
 			"init": "com.stereo528.discovery.Discovery",
 			"client_init": "com.stereo528.discovery.DiscoveryClient",
-			"modmenu": "com.stereo528.discovery.Config.ModMenuIntegration"
+			"modmenu": "com.stereo528.discovery.config.ModMenuIntegration"
 		},
 		"depends": [
 			{

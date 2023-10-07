@@ -1,4 +1,4 @@
-package com.stereo528.discovery.Config;
+package com.stereo528.discovery.config;
 
 
 import com.stereo528.discovery.Discovery;
