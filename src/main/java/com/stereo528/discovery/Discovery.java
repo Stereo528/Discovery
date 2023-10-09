@@ -1,7 +1,10 @@
 package com.stereo528.discovery;
 
 import com.stereo528.discovery.blocks.DiscoveryBlocks;
+import com.stereo528.discovery.items.DiscoveryItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
@@ -30,5 +33,8 @@ public class Discovery implements ModInitializer {
 	public void onInitialize(ModContainer mod) {
 		LOGGER.info("Are ya ready to go on some Discovery kids?");
 		DiscoveryBlocks.init();
+		DiscoveryItems.init();
+
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ITEM_GROUP, DISCOVERY);
 	}
 }

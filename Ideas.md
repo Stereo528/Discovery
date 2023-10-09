@@ -1,10 +1,5 @@
 # TODO
-- Cherry Themed wood set (maybe?)
-	- basically a just for looks thing
-	- might do all wood types
-	- as well as leaving vanilla for mixed wood
-- bone themed armor/tool set
-	- somewhere between stone (chainmail) & iron
+
 - Add something to Ancient Cities
 	- creates a large amount of sound
 - more flowers?
@@ -22,13 +17,26 @@
 - sparse jungle??
 
 # IN PROGRESS
+- sunflower seed foods
+    - would need to be balanced for infinite dupe
+    - some form of bar
+    - the seeds themselves
+    - trail mix?
+
+- Wood Armors
+  - one for each wood type
+  - mainly for looks
+  - maybe also tool sets?
+    - lots of work but would be nice for fun
+    - vanilla can still be crafted from mix wood types
+
+- bone armor/tool set
+    - somewhere between stone (chainmail) & iron
+
 - new village house?
     - own loot
       - provides lamps, weapon enchant(s), different tree saplings?
     - Agricultural style maybe?
-- sunflower seed foods
-    - would need to be balanced for infinite dupe
 
 # DONE
 - lamps that provide different light level based on redstone
-    - also have a non redstone variant (not done)
