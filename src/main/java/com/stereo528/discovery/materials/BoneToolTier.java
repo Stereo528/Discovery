@@ -1,11 +1,11 @@
-package com.stereo528.discovery.tiers;
+package com.stereo528.discovery.materials;
 
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import static net.minecraft.world.item.Items.BONE;
 
-public class BoneTier implements Tier {
+public class BoneToolTier implements Tier {
 	@Override
 	public int getUses() {
 		return 200;
