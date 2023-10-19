@@ -78,7 +78,7 @@ public enum DiscoveryArmorMaterials implements ArmorMaterial {
 
 	@Override
 	public @NotNull ResourceLocation getTexture() {
-		return new ResourceLocation(MODID + ":textures/models/armor/" + this.name);
+		return new ResourceLocation(MODID, "textures/models/armor/" + this.name);
 	}
 
 }

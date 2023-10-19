@@ -1,12 +1,16 @@
 # TODO
-
+- Wood Armors
+    - one for each wood type
+    - mainly for looks
+    - maybe also tool sets?
+        - lots of work but would be nice for fun
+        - vanilla can still be crafted from mix wood types
 - Add something to Ancient Cities
 	- creates a large amount of sound
 - more flowers?
 	- for flower forest mainly, but maybe plains and/or forests also
 - Meadow biome structure
-- new animal
-	- probably flower forest/all forests (including taiga)
+
 - mega taiga structure
 - new ruined nether portal structure
 - new weapon
@@ -23,15 +27,8 @@
     - the seeds themselves
     - trail mix?
 
-- Wood Armors
-  - one for each wood type
-  - mainly for looks
-  - maybe also tool sets?
-    - lots of work but would be nice for fun
-    - vanilla can still be crafted from mix wood types
-
-- bone armor/tool set
-    - somewhere between stone (chainmail) & iron
+- new animal
+    - probably flower forest/all forests (including taiga)
 
 - new village house?
     - own loot
@@ -40,3 +37,5 @@
 
 # DONE
 - lamps that provide different light level based on redstone
+- bone armor/tool set
+    - somewhere between stone (chainmail) & iron

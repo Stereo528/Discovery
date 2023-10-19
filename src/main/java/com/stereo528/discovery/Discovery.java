@@ -1,8 +1,11 @@
 package com.stereo528.discovery;
 
 import com.stereo528.discovery.blocks.DiscoveryBlocks;
+import com.stereo528.discovery.entities.DiscoveryEntities;
+import com.stereo528.discovery.entities.FlowerStrider;
 import com.stereo528.discovery.items.DiscoveryItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -16,6 +19,7 @@ import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static com.stereo528.discovery.entities.DiscoveryEntities.FLOWER_STRIDER;
 import static net.minecraft.world.level.block.Blocks.COBBLESTONE;
 
 public class Discovery implements ModInitializer {
@@ -34,7 +38,9 @@ public class Discovery implements ModInitializer {
 		LOGGER.info("Are ya ready to go on some Discovery kids?");
 		DiscoveryBlocks.init();
 		DiscoveryItems.init();
+		DiscoveryEntities.init();
 
+		FabricDefaultAttributeRegistry.register(FLOWER_STRIDER, FlowerStrider.createMobAttributes());
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ITEM_GROUP, DISCOVERY);
 	}
 }
